@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: what-to-do
+  cloud:
+    consul:
+      enabled: true
+      host: consul
+      port: 8500
