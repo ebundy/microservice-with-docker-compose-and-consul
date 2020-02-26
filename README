@@ -5,7 +5,7 @@ curl, docker and docker-compose installed.
 Instructions :  
 
 In a first tab : execute that command from the base folder to run the containers and watch logs : 
-docker-compose up -d --build --scale weather-forecast-service=3 && docker logs -f
+docker-compose up --build --scale weather-forecast-service=3 
 
 In a second tab : execute that command multiple times to check the load balanced behavior (look at logs in the first tab)
 curl -L http://localhost:7010/what-to-do
