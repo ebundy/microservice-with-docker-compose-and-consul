@@ -1,2 +1,2 @@
-To run the 3 containers, from the base folder execute the command : <br>
+To run the 3 containers, from the base folder execute the command : 
 docker-compose up --build
