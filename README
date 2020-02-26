@@ -1,6 +1,6 @@
 Requirements : 
 
-docker and docker-compose installed.
+curl, docker and docker-compose installed.
 
 Instructions :  
 
